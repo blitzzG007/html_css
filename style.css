@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #222;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+    background: #fff;
+}
+
+.cr7-logo {
+    max-width: 60px;
+}
+
+.header-logo {
+    margin-left: 20px;
+}
+
+
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 45px;
+    list-style: none;
+    font-size: 17px;
+}
+
+.navbar a {
+    color: #000;
+}
