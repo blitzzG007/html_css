@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +16,7 @@
 body {
     background: #222;
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
@@ -45,7 +47,9 @@ header {
 .navbar li {
     margin-right: 45px;
     list-style: none;
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: 580;
+    letter-spacing: 4px;
 }
 
 .navbar a {
