@@ -63,7 +63,7 @@ header {
 
 /* Home page */
 .welcome {
-    background: rgb(0, 0, 0, 0.5) url(/img/cr7_img.jpg) center top no-repeat;
+    background: rgb(0, 0, 0, 0.6) url(/img/cr7_img.jpg) center top no-repeat;
     background-size: cover;
     background-blend-mode: darken;
     height: 40vh;
